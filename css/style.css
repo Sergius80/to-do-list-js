@@ -1,0 +1,150 @@
+@import url(reset.css);
+
+body {
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #b8b8b8;
+}
+
+.wrapper {
+  width: 322px;
+  margin: 50px auto;
+}
+
+.headingH1 {
+  margin: 0px 0 15px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.2em;
+}
+
+.todolist__section {
+  position: relative;
+  padding: 10px 10px 4px;
+  margin: 0 0 10px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.todolist__startMsg {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  top: 10px;
+  left: 10px;
+}
+
+.inputAddTextGroup {
+  display: flex;
+  justify-content: space-between
+}
+
+.todolist__input {
+  width: 187px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+
+.todolist__btnAdd {
+  padding: 5px 7px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.todolist__btnAdd:hover {
+  color: #fff;
+  background: #448ee5;
+}
+
+.inputDecor {
+  font-size: 15px;
+  line-height: 1.2em;
+  color: #000;
+  background: #b8b8b8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.todolist__filterBtn {
+  border: none;
+  padding-bottom: 2px;
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  background: #b8b8b8;
+}
+
+.todolist__filterBtn.selected {
+  border-bottom: 1px solid black;
+}
+
+.todolist__filterBtn:hover {
+  border-bottom: 1px solid black;
+}
+
+.taskList {
+  height: 300px;
+  overflow-y: auto;
+}
+
+.taskList__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0 5px;
+  border-bottom: 1px solid #000;
+}
+
+.taskList__text {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  overflow: hidden;
+}
+
+.taskList__tools {
+  display: flex;
+  justify-content: space-between;
+  width: 27%;
+  margin-top: 2px;
+}
+
+.taskList__checkbox {
+  width: 16px;
+  height: 16px;
+  accent-color: #448ee5;
+}
+
+.taskList__delBtn {
+  width: 16px;
+  height: 16px;
+  line-height: 12px;
+  font-size: 12px;
+  border: 1px solid #767676;
+  border-radius: 3px;
+}
+
+.taskList__delBtn:hover {
+  border: none;
+  color: #fff;
+  background: red;
+}
+
+.taskList__updateInput {
+  width: 85%;
+}
+
+.taskList__updateBtn {
+  height: 16px;
+  padding: 0px 2px;
+  border-radius: 3px;
+  border: 1px solid #767676;
+  font-size: 11px;
+  line-height: 17px;
+}
+
+.taskList__updateBtn:hover {
+  color: #fff;
+  background: #448ee5;
+}

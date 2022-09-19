@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="todolist">
+        <h1 class="headingH1">To-Do-List</h1>
+        <div class="todolist__section">
+          <div class="inputAddTextGroup" id="inputAddTextGroup">
+            <input type="text" class="todolist__input inputDecor" data-name="inputText">
+            <input type="button" class="todolist__btnAdd inputDecor" data-name="btnAdd" value="Добавить">
+          </div>
+          <div class="filterButtonGroup" data-name="filterButtonGroup">
+            <button class="todolist__filterBtn" data-name="allBtn">Все</button>
+            <button class="todolist__filterBtn" data-name="notCompletedBtn">Не завершённые</button>
+          </div>
+        </div>
+        <div class="todolist__section">
+          <div class="todolist__startMsg" id="startMsg">Задач нет</div>
+          <ul class="taskList" data-name="taskList">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+  <script src="js/index.js"></script>
+</body>
+</html>
